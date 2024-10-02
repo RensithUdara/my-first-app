@@ -1,8 +1,15 @@
 import './App.css';
+import NavBar from './components/NavBar';
 import SimpleCard  from './components/SimpleCard';
 
 function App() {
-  return <SimpleCard/> ;
+  return (
+  <div>
+    <SimpleCard/> 
+    <NavBar/>
+  </div>
+);
+
 }
 
 export default App;
