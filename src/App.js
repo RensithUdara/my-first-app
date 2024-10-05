@@ -11,6 +11,13 @@ function App() {
   function alertHello () {
     alert("Hello");
   }
+
+  const myJSX = (
+    <div>
+      <h4>Title</h4>
+      <p>My paragraph in this excersice</p>
+    </div>
+  )
   
   return (
     <>
@@ -34,8 +41,10 @@ function App() {
      }}>
       Answer : 5 * 5 = {5 * 5} 
     </h2>
-    
+
     {alertHello()}
+
+    {myJSX}
 
     </>
 
