@@ -18,6 +18,11 @@ function App() {
       <p>My paragraph in this excersice</p>
     </div>
   )
+
+  const person = {
+    name : "Rensith",
+    age : 23
+  }
   
   return (
     <>
@@ -45,6 +50,13 @@ function App() {
     {alertHello()}
 
     {myJSX}
+
+    <h1 style = {{ 
+      color : "red",
+      padding : 10,
+     }}>
+      I'm {person.name} , I'm {person.age} years old.
+    </h1>
 
     </>
 
